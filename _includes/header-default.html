@@ -18,10 +18,6 @@
                 <svg class="icon icon-twitter"><use xlink:href="#icon-twitter"></use></svg>
             </a>
 
-            <a aria-label="My Google Plus" title="Show my feed" target="_blank" href="https://plus.google.com/u/0/+{{site.gplus_username}}/posts">
-                <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
-            </a>
-
             <a aria-label="My Github" title="Show my projects" target="_blank" href="https://github.com/{{site.github_username}}">
                 <svg class="icon icon-github-alt"><use xlink:href="#icon-github-alt"></use></svg>
             </a>
@@ -29,13 +25,25 @@
             <a aria-label="My LinkedIn" title="Show my linkedin profile" target="_blank" href="https://www.linkedin.com/in/{{site.linkedin_public_url}}">
                 <svg class="icon icon-linkedin"><use xlink:href="#icon-linkedin"></use></svg>
             </a>
-
-            <a aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
-                <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
+    
+            <a aria-label="My Spotify" title="Stream my music" target="_blank" href="https://open.spotify.com/artist/{{site.spotify_artist_id}}">
+                <svg class="icon icon-spotify"><use xlink:href="#icon-spotify"></use></svg>
             </a>
+    
+            <a aria-label="My Bandcamp" title="Buy my music" target="_blank" href="https://{{site.bandcamp_artist_name}}.bandcamp.com">
+                <svg class="icon icon-bandcamp"><use xlink:href="#icon-bandcamp"></use></img>
+            </a>
+            
+            <!--a aria-label="My Google Plus" title="Show my feed" target="_blank" href="https://plus.google.com/u/0/+{{site.gplus_username}}/posts">
+                <svg class="icon icon-google-plus"><use xlink:href="#icon-google-plus"></use></svg>
+            </a-->
+
+            <!--a aria-label="Use the RSS to get updated" title="Register for my RSS" target="_blank" href="{{ "/feed.xml" | prepend: site.baseurl }}">
+                <svg class="icon icon-rss"><use xlink:href="#icon-rss"></use></svg>
+            </a-->
         </div>
 
-        <ul class="recent">
+        <!--ul class="recent">
             <p>Recent posts:</p>
              {% for post in site.posts limit:3%}
                 <li>
@@ -55,8 +63,8 @@
                     </a>
                 </li>
               {% endfor %}
-        </ul>
+        </ul-->
 
     </div>
-    {% include menu-search.html %}
+    <!-- {% include menu-search.html %} -->
 </header>
