@@ -5,7 +5,7 @@ baseurl: "" # for test: remove string '/space-jekyll-template' to ''
 url: "" # in production: 'https://xt3rm1n8r.github.io'
 
 # User settings
-username: Darien Sokolov - XT3RM1N8R
+username: XT3RM1N8R
 user_title: Darien Sokolov - Developer
 email: darien.sokolov@gmail.com
 twitter_username: Darien_Sokolov
