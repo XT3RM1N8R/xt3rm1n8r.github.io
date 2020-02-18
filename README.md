@@ -1,3 +1,6 @@
+### This site was quickly created from the Space Jekyll theme. The rest that you see in this README came with the template. ~Darien Sokolov
+
+
 # Space Jekyll
 
 A simple and elegant Jekyll theme based on Spacemacs. The theme works well on mobile devices as well.
